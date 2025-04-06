@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NathKriss Moda Praia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffdf7;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffe0e6;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #e06c9f;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .produto {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .produto:hover {
+      transform: scale(1.03);
+    }
+
+    .produto img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .produto h3 {
+      margin: 0.5rem 0 0.2rem;
+      color: #e06c9f;
+    }
+
+    .produto p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #ffe0e6;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NathKriss Moda Praia</h1>
+    <p>Verão o ano inteiro com estilo e leveza</p>
+  </header>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1609984432530-0e0cc0a2472c?auto=format&fit=crop&w=600&q=80" alt="Biquíni Rosa">
+      <h3>Biquíni Rosa Floral</h3>
+      <p>R$ 89,90</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1609960919990-7183ecaf21a5?auto=format&fit=crop&w=600&q=80" alt="Biquíni Azul">
+      <h3>Biquíni Azul Serenity</h3>
+      <p>R$ 95,00</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1623085932505-8fa248391d95?auto=format&fit=crop&w=600&q=80" alt="Biquíni Listrado">
+      <h3>Biquíni Listrado Vintage</h3>
+      <p>R$ 99,90</p>
+    </div>
+
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1593032457869-111f65d6f4e3?auto=format&fit=crop&w=600&q=80" alt="Maiô Branco">
+      <h3>Maiô Branco Elegance</h3>
+      <p>R$ 120,00</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 NathKriss Moda Praia. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
